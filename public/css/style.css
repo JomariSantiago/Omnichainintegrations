@@ -1,0 +1,119 @@
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.about-us p,
+.services p {
+  margin-top: 0;
+}
+
+.about-us,
+.services {
+  margin-bottom: 2em;
+}
+
+.services ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
+}
+
+.services li {
+  margin-bottom: 0.5em;
+}
+
+.services a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+  margin-bottom: 0.5em;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.25em;
+}
+
+.contact input[type="submit"] {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  cursor: pointer;
+  border-radius: 0.25em;
+}
+
+/* Box for the "Call Now" button */
+.cta-box {
+  background-color: #F9A602;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #FF9900;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
